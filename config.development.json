@@ -1,13 +1,14 @@
 {
-  "url": "http://localhost:2369/",
+  "adminUrl": "http://localhost:2368/ghost/",
+  "url": "http://localhost:2368/",
   "server": {
-    "port": 2369,
+    "port": 2368,
     "host": "127.0.0.1"
   },
   "database": {
     "client": "sqlite3",
     "connection": {
-      "filename": "/Users/chadwtaylor/Projects/timeismeal/blog/content/data/ghost-dev.db"
+      "filename": "/Users/chadwtaylor/Projects/timeismeal/blog/content/data/ghost-local.db"
     }
   },
   "mail": {
